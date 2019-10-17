@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/sv_department"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adapters.DepartmentMoreFragment">
+    <LinearLayout
+        android:background="@color/gray100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="16dp"
+            android:text="Download"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="20sp"/>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/more_tv_se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="SE SEM III"
+                    android:textColor="@android:color/primary_text_light"
+                    android:textSize="16sp"/>
+                <Button
+                    android:id="@+id/more_btn_se_tt"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Time Table"
+                    android:layout_below="@id/more_tv_se"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/more_btn_se_ac"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Academic Calendar"
+                    android:textAllCaps="false"
+                    android:layout_below="@id/more_tv_se"
+                    android:layout_toRightOf="@id/more_btn_se_tt"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/more_tv_te"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="TE SEM V"
+                    android:textColor="@android:color/primary_text_light"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/more_btn_te_tt"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Time Table"
+                    android:layout_below="@id/more_tv_te"
+                    android:textAllCaps="false"/>
+
+
+                <Button
+                    android:id="@+id/more_btn_te_ac"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Academic Calendar"
+                    android:textAllCaps="false"
+                    android:layout_below="@id/more_tv_te"
+                    android:layout_toRightOf="@+id/more_btn_te_tt"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/more_tv_be"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="BE SEM VII"
+                    android:textColor="@android:color/primary_text_light"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/more_btn_be_tt"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_below="@id/more_tv_be"
+                    android:text="Time Table"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/more_btn_be_ac"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Academic Calendar"
+                    android:layout_below="@id/more_tv_be"
+                    android:textAllCaps="false"
+                    android:layout_toRightOf="@id/more_btn_be_tt"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingStart="16dp"
+            android:text="Facilities"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="20sp"/>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="6dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/more_facilities_fragment_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

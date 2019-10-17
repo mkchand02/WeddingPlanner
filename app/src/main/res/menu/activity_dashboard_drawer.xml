@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_dashboard"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="Dashboard" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_engagement"
+            android:icon="@drawable/ic_favorite"
+            android:title="ENGAGEMENT"/>
+        <item android:id="@+id/nav_mehendi"
+            android:icon="@drawable/ic_favorite"
+            android:title="MEHENDI"/>
+        <item android:id="@+id/nav_sangeet"
+            android:icon="@drawable/ic_favorite"
+            android:title="SANGEET"/>
+        <item android:id="@+id/nav_wedding"
+            android:icon="@drawable/ic_favorite"
+            android:title="WEDDING"/>
+        <item android:id="@+id/nav_reception"
+            android:icon="@drawable/ic_favorite"
+            android:title="RECEPTION"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

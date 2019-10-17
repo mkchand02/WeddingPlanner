@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingBottom="180dp">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter your email"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:backgroundTint="@color/colorPrimary"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Enter your password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:baselineAligned="false"
+            android:textColor="#fff"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="SIGN IN" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textViewSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not have an account Sign up here"
+            android:textColor="@color/colorAccent"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
